@@ -1,1 +1,1 @@
-# manpages.dev
+manpages.dev
