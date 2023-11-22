@@ -11,16 +11,35 @@
 
 ## DESCRIPTION
 
+Manpages.dev is a web and API service that simplifies the search and browsing of manual pages. It seamlessly integrates with popular text editors like Vim and Visual Studio Code, allowing developers to access manual pages directly within their coding environment. This enhances productivity by providing instant access to necessary documentation.
 
 ## INSTALL
 
 ### for Vim
 
+```vim
+Plug 'kuangyujing/manpages.dev'
+```
+
 ### for Visual Studio Code
+
+### for Command-line
+
+```sh
+curl -sSL https://manpages.dev/install.sh | sh
+```
 
 ## BUILD INSTRUCTION
 
+```sh
+git clone https://github.com/kuangyujing/manpages.dev.git
+cd manpages.dev
+make build
+```
+
 ## REPORTING BUGS
+
+Report bugs at https://github.com/manpagesdev/manpages.dev/issues .
 
 ## LICENSE
 
@@ -50,4 +69,5 @@
 
 ## CONTRIBUTING
 
+Contributions are welcome! Please read our contributing guidelines at [CONTRIBUTING](CONTRIBUTING.md) .
 
